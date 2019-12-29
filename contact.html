@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/contact-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+.wrap{
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.menu{
+	background-color: #fff;
+	width: 100%;
+	position: relative;	
+}
+.menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 7px;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: block;
+	line-height: 45px; 
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0px 40px;
+	text-decoration: none; 
+	transition: all ease 0.5s;
+}
+
+.menu ul li:hover > a{
+	color: #333;
+}
+
+
+.menu ul li:hover .mega-menu-1{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0; 
+}
+
+.menu ul li:hover .mega-menu-2{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0; 
+}
+
+.menu ul li:hover .mega-menu-3{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0; 
+}
+
+.menu ul li:hover .mega-menu-4{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0; 
+}
+
+.menu ul li:hover .mega-menu-5{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0; 
+}
+
+.menu ul li:hover .mega-menu-6{
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0; 
+}
+
+
+.mega-menu-1{
+	position: absolute;
+	top: 105%;
+	left: 150px;
+	right: 150px;
+	background-color: #fff;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.mega-menu-2{
+	position: absolute;
+	top: 105%;
+	left: 150px;
+	right: 150px;
+	background-color: #fff;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.mega-menu-3{
+	position: absolute;
+	top: 105%;
+	left: 150px;
+	right: 150px;
+	background-color: #fff;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.mega-menu-4{
+	position: absolute;
+	top: 105%;
+	left: 150px;
+	right: 150px;
+	background-color: #fff;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.mega-menu-5{
+	position: absolute;
+	top: 105%;
+	left: 150px;
+	right: 150px;
+	background-color: #fff;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+.mega-menu-6{
+	position: absolute;
+	top: 105%;
+	left: 150px;
+	right: 150px;
+	background-color: #fff;
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+
+.mega-menu-1 .mega-column-1{
+	float: left;
+	width: 15%;
+	padding: 25px;
+}
+
+.mega-menu-2 .mega-column-2{
+	float: left;
+	width: 15%;
+	padding: 25px;
+}
+
+.mega-menu-3 .mega-column-3{
+	float: left;
+	width: 15%;
+	padding: 25px;
+}
+
+.mega-menu-4 .mega-column-4{
+	float: left;
+	width: 15%;
+	padding: 25px;
+}
+
+.mega-menu-5 .mega-column-5{
+	float: left;
+	width: 15%;
+	padding: 25px;
+}
+
+.mega-menu-6 .mega-column-6{
+	float: left;
+	width: 15%;
+	padding: 25px;
+}
+
+.mega-menu-1 .mega-column-1 h3{
+	color: #ee5f73;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.mega-menu-2 .mega-column-2 h3{
+	color: #fb56c1;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.mega-menu-3 .mega-column-3 h3{
+	color: #f26a10;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.mega-menu-4 .mega-column-4 h3{
+	color: #f2c210;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.mega-menu-5 .mega-column-5 h3{
+	color: #0db7af;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.mega-menu-6 .mega-column-6 h3{
+	color: #ff3f6c;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+
+
+.mega-menu-1 .mega-column-1 p{
+	margin: 0px 0px 5px 0px;
+}
+
+.mega-menu-2 .mega-column-2 p{
+	margin: 0px 0px 5px 0px;
+}
+
+.mega-menu-3 .mega-column-3 p{
+	margin: 0px 0px 5px 0px;
+}
+
+.mega-menu-4 .mega-column-4 p{
+	margin: 0px 0px 5px 0px;
+}
+
+.mega-menu-5 .mega-column-5 p{
+	margin: 0px 0px 5px 0px;
+}
+
+.mega-menu-6 .mega-column-6 p{
+	margin: 0px 0px 5px 0px;
+}
+
+
+.mega-menu-1 .mega-column-1 p a{
+	color: #333;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px; 
+}
+
+.mega-menu-2 .mega-column-2 p a{
+	color: #333;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px; 
+}
+.mega-menu-3 .mega-column-3 p a{
+	color: #333;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px; 
+}
+.mega-menu-4 .mega-column-4 p a{
+	color: #333;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px; 
+}
+.mega-menu-5 .mega-column-5 p a{
+	color: #333;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px; 
+}
+
+.mega-menu-6 .mega-column-6 p a{
+	color: #333;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px; 
+}
+
+.mega-menu-1 .mega-column-1 p a:hover{
+ 	text-shadow: -0.25px -0.25px 0 #000, 0.25px 0.25px #000; 
+}
+
+.mega-menu-2 .mega-column-2 p a:hover{
+ 	text-shadow: -0.25px -0.25px 0 #000, 0.25px 0.25px #000; 
+}
+	
+.mega-menu-3 .mega-column-3 p a:hover{
+ 	text-shadow: -0.25px -0.25px 0 #000, 0.25px 0.25px #000; 
+}
+	
+.mega-menu-4 .mega-column-4 p a:hover{
+ 	text-shadow: -0.25px -0.25px 0 #000, 0.25px 0.25px #000; 
+}
+
+.mega-menu-5 .mega-column-5 p a:hover{
+ 	text-shadow: -0.25px -0.25px 0 #000, 0.25px 0.25px #000; 
+}
+
+
+.mega-menu-6 .mega-column-6 p a:hover{
+ 	text-shadow: -0.25px -0.25px 0 #000, 0.25px 0.25px #000; 
+}
+
+button{
+ padding:10px;
+ border:1px solid #DCDCDC;
+ background-color: #fff;
+ font-weight: bold;
+ color: #ff3f6c;
+ outline: none;
+ border-radius: 2px;
+
+}
+
+button:hover{
+border-color: #ff3f6c;
+}
+
+	</style>
+</head>
+<body>
+
+	<div class="wrap">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html	">HOME</a></li>
+				<li><a href="men.html">MEN</a>
+					<div class="mega-menu-1">
+						<div class="mega-column-1">
+							<h3>Topwear</h3>
+							<p><a href="#">T-Shirts</a></p>
+							<p><a href="#">Casual Shirts</a></p>
+							<p><a href="#">Formal Shirts</a></p>
+							<p><a href="#">Sweatshirts</a></p>
+							<p><a href="#">Sweaters</a></p>
+							<p><a href="#">Jackets</a></p>
+							<p><a href="#">Blazers & Coats</a></p>
+							<p><a href="#">Suits</a></p>
+							<p><a href="#">Rain Jackets</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Indian & Festive Wear</h3>
+							<p><a href="#">Kurtas & Kurta Sets</a></p>
+							<p><a href="#">Sherwanis</a></p>
+							<p><a href="#">Nehru Jackets</a></p>
+							<p><a href="#">Dhotis</a></p>
+						</div>
+						<div class="mega-column-1">
+							<h3>Bottomwear</h3>
+							<p><a href="#">Jeans</a></p>
+							<p><a href="#">Casual Trousers</a></p>
+							<p><a href="#">Formal Trousers</a></p>
+							<p><a href="#">Shorts</a></p>
+							<p><a href="#">Track Pants & Joggers</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Innerwear & Sleepwear</h3>
+							<p><a href="#">Briefs & Trunks</a></p>
+							<p><a href="#">Boxers</a></p>
+							<p><a href="#">Vests</a></p>
+							<p><a href="#">Sleepwear & Loungewear</a></p>
+							<p><a href="#">Thermals</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Plus Size</h3>
+						</div>
+						<div class="mega-column-1">
+							<h3>Footwear</h3>
+							<p><a href="#">Casual Shoes</a></p>
+							<p><a href="#">Sports Shoes</a></p>
+							<p><a href="#">Formal Shoes</a></p>
+							<p><a href="#">Sneakers</a></p>
+							<p><a href="#">Sandals & Floaters</a></p>
+							<p><a href="#">Flip Flops</a></p>
+							<p><a href="#">Socks</a></p>
+							<br>
+							<h3>Personal Care & Grooming</h3>
+							<br>
+							<h3>Sunglasses & Frames</h3>
+							<br>
+							<h3>Watches</h3>
+						</div>
+						<div class="mega-column-1">
+							<h3>Sports & Active Wear</h3>
+							<p><a href="#">Sports Shoes</a></p>
+							<p><a href="#">Sports Sandals</a></p>
+							<p><a href="#">Active T-Shirts</a></p>
+							<p><a href="#">Track Pants & Shorts</a></p>
+							<p><a href="#">Tracksuits</a></p>
+							<p><a href="#">Jackets & Sweatshirts</a></p>
+							<p><a href="#">Sports Accessories</a></p>
+							<p><a href="#">Swimwear</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Gadgets</h3>
+							<p><a href="#">Smart Wearables</a></p>
+							<p><a href="#">Fitness Gadgets</a></p>
+							<p><a href="#">Headphones</a></p>
+							<p><a href="#">Speakers</a></p>
+						</div>
+						<div class="mega-column-1">
+							<h3>Fashion Accessories</h3>
+							<p><a href="#">Wallets</a></p>
+							<p><a href="#">Belts</a></p>
+							<p><a href="#">Perfumes & Body Mists</a></p>
+							<p><a href="#">Trimmers</a></p>
+							<p><a href="#">Deodorants</a></p>
+							<p><a href="#">Ties, Cufflinks & Pocket Squares</a></p>
+							<p><a href="#">Accessory Gift Sets</a></p>
+							<p><a href="#">Caps & Hats</a></p>
+							<p><a href="#">Mufflers, Scarves & Gloves</a></p>
+							<p><a href="#">Phone Cases</a></p>
+							<p><a href="#">Rings & Wristwear</a></p>
+							<p><a href="#">Helmets</a></p>
+							<br>
+							<h3>Bags & Backpacks</h3>
+							<br>
+							<h3>Luggages & Trolleys</h3>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li><a href="women.html">WOMEN</a>
+					<div class="mega-menu-2">
+						<div class="mega-column-2">
+							<h3>Indian & Fusion Wear</h3>
+							<p><a href="#">Kurtas & Suits</a></p>
+							<p><a href="#">Kurtis, Tunics & Tops</a></p>
+							<p><a href="#">Ethnic Dresses</a></p>
+							<p><a href="#">Leggings, Salwars & Churidars</a></p>
+							<p><a href="#">Skirts & Palazzos</a></p>
+							<p><a href="#">Sarees & Blouses</a></p>
+							<p><a href="#">Dress Materials</a></p>
+							<p><a href="#">Lehenga Cholis</a></p>
+							<p><a href="#">Dupattas & Shawls</a></p>
+							<p><a href="#">Jackets & Waistcoats</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Belts, Scarves & More</h3>
+							<br>
+							<h3>Watches & Wearables</h3>
+						</div>
+						<div class="mega-column-2">
+							<h3>Western Wear</h3>
+							<p><a href="#">Dresses & Jumpsuits</a></p>
+							<p><a href="#">Tops</a></p>
+							<p><a href="#">T-Shirts</a></p>
+							<p><a href="#">Shirts</a></p>
+							<p><a href="#">Jeans & Jeggings</a></p>
+							<p><a href="#">Trousers & Capris</a></p>
+							<p><a href="#">Shorts & Skirts</a></p>
+							<p><a href="#">Shrugs</a></p>
+							<p><a href="#">Sweaters & Sweatshirts</a></p>
+							<p><a href="#">Jackets & Waistcoats</a></p>
+							<p><a href="#">Coats & Blazers</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Sunglasses & Frames</h3>
+						</div>
+						<div class="mega-column-2">
+							<h3>Footwear</h3>
+							<p><a href="#">Flats</a></p>
+							<p><a href="#">Casual Shoes</a></p>
+							<p><a href="#">Heels</a></p>
+							<p><a href="#">Boots</a></p>
+							<p><a href="#">Sports Shoes & Floaters</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Sports & Active Wear</h3>
+							<p><a href="#">Clothing</a></p>
+							<p><a href="#">Footwear</a></p>
+							<p><a href="#">Sports Accessories</a></p>
+							<p><a href="#">Sports Equipment</a></p>
+						</div>
+						<div class="mega-column-2">
+							<h3>Lingerie & Sleepwear</h3>
+							<p><a href="#">Bras & Lingerie Sets</a></p>
+							<p><a href="#">Briefs</a></p>
+							<p><a href="#">Shapewear</a></p>
+							<p><a href="#">Sleepwear & Loungewear</a></p>
+							<p><a href="#">Swimwear</a></p>
+							<p><a href="#">Camisoles & Thermals</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Beauty & Personal Care</h3>
+							<p><a href="#">Makeup</a></p>
+							<p><a href="#">Skincare</a></p>
+							<p><a href="#">Premium Beauty</a></p>
+							<p><a href="#">Lipsticks</a></p>
+							<p><a href="#">Fragrances</a></p>
+						</div>
+						<div class="mega-column-2">
+							<h3>Gadgets</h3>
+							<p><a href="#">Smart Wearables</a></p>
+							<p><a href="#">Fitness Gadgets</a></p>
+							<p><a href="#">Headphones</a></p>
+							<p><a href="#">Speakers</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Jewellery</h3>
+							<p><a href="#">Fashion Jewellery</a></p>
+							<p><a href="#">Fine Jewellery</a></p>
+							<p><a href="#">Earrings</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Backpacks</h3>
+							<br>
+							<h3>Handbags, Bags & Wallets</h3>
+							<br>
+							<h3>Luggages & Trolleys</h3>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li><a href="kids.html">KIDS</a>
+					<div class="mega-menu-3">
+						<div class="mega-column-3">
+							<h3>Boys Clothing</h3>
+							<p><a href="#">T-Shirts</a></p>
+							<p><a href="#">Shirts</a></p>
+							<p><a href="#">Shorts</a></p>
+							<p><a href="#">Jeans</a></p>
+							<p><a href="#">Trousers</a></p>
+							<p><a href="#">Clothing Sets</a></p>
+							<p><a href="#">Ethnic Wear</a></p>
+							<p><a href="#">Track Pants & Pyjamas</a></p>
+							<p><a href="#">Jacket, Sweater & Sweatshirts</a></p>
+							<p><a href="#">Innerwear & Sleepwear</a></p>
+						</div>
+						<div class="mega-column-3">
+							<h3>Girls Clothing</h3>
+							<p><a href="#">Dresses</a></p>
+							<p><a href="#">Tops</a></p>
+							<p><a href="#">T-shirts</a></p>
+							<p><a href="#">Clothing Sets</a></p>
+							<p><a href="#">Ethnic wear</a></p>
+							<p><a href="#">Dungarees & Jumpsuits</a></p>
+							<p><a href="#">Skirts & shorts</a></p>
+							<p><a href="#">Tights & Leggings</a></p>
+							<p><a href="#">Jeans, Trousers & Capris</a></p>
+							<p><a href="#">Jacket, Sweater & Sweatshirts</a></p>
+							<p><a href="#">Innerwear & Sleepwear</a></p>
+						</div>
+						<div class="mega-column-3">
+							<h3>Boys Footwear</h3>
+							<p><a href="#">Casual Shoes</a></p>
+							<p><a href="#">Sports Shoes</a></p>
+							<p><a href="#">Sandals</a></p>
+							<p><a href="#">Flip flops</a></p>
+							<p><a href="#">School Shoes</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Girls Footwear</h3>
+							<p><a href="#">Flats</a></p>
+							<p><a href="#">Casual Shoes</a></p>
+							<p><a href="#">Heels</a></p>
+							<p><a href="#">Flip flops</a></p>
+							<p><a href="#">Sandals</a></p>
+							<p><a href="#">School Shoes</a></p>
+						</div>
+						<div class="mega-column-3">
+							<h3>Infants</h3>
+							<p><a href="#">Rompers & Onesies</a></p>
+							<p><a href="#">Clothing Sets</a></p>
+							<p><a href="#">Tshirts & Tops</a></p>
+							<p><a href="#">Dresses</a></p>
+							<p><a href="#">Bottom wear</a></p>
+							<p><a href="#">Winter Wear</a></p>
+							<p><a href="#">Innerwear & Sleepwear</a></p>
+							<p><a href="#">Infants Accessories</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Kids Accessories</h3>
+							<p><a href="#">Bags & Backpacks</a></p>
+							<p><a href="#">Watches</a></p>
+							<p><a href="#">Jewellery & Hair Accessories</a></p>
+							<p><a href="#">Eyewear</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Home & Bath</h3>
+						</div>
+						<div class="mega-column-3">
+							<h3>Brands</h3>
+							<p><a href="#">United Colors of Benetton</a></p>
+							<p><a href="#">Yk</a></p>
+							<p><a href="#">U.S. Polo Assn. Kids</a></p>
+							<p><a href="#">GAP Kids</a></p>
+							<p><a href="#">Gini & Jony</a></p>
+							<p><a href="#">Peppermint</a></p>
+							<p><a href="#">next</a></p>
+							<p><a href="#">Allen Solly Junior</a></p>
+							<p><a href="#">Nike</a></p>
+							<p><a href="#">Pepe Jeans</a></p>
+							<p><a href="#">H&M</a></p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li><a href="h&l.html">HOME & LIVING</a>
+					<div class="mega-menu-4">
+						<div class="mega-column-4">
+							<h3>Bed Linen & Furnishing</h3>
+							<p><a href="#">Bedsheets</a></p>
+							<p><a href="#">Bedding Sets</a></p>
+							<p><a href="#">Blankets, Quilts & Dohars</a></p>
+							<p><a href="#">Pillows & Pillow Covers</a></p>
+							<p><a href="#">Bed Covers</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Flooring</h3>
+							<p><a href="#">Carpets</a></p>
+							<p><a href="#">Floor Mats & Dhurries</a></p>
+							<p><a href="#">Door Mats</a></p>
+						</div>
+						<div class="mega-column-4">
+							<h3>Bath</h3>
+							<p><a href="#">Bath Towels</a></p>
+							<p><a href="#">Hand & Face Towels</a></p>
+							<p><a href="#">Beach Towels</a></p>
+							<p><a href="#">Towels Set</a></p>
+							<p><a href="#">Bath Rugs</a></p>
+							<p><a href="#">Bath Robes</a></p>
+							<p><a href="#">Bathroom Accessories</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Lamps & Lighting</h3>
+							<p><a href="#">Floor Lamps</a></p>
+							<p><a href="#">Table Lamps</a></p>
+							<p><a href="#">Wall Lamps</a></p>
+						</div>
+						<div class="mega-column-4">
+							<h3>Home Décor</h3>
+							<p><a href="#">Plants & Planters</a></p>
+							<p><a href="#">Aromas & Candles</a></p>
+							<p><a href="#">Clocks</a></p>
+							<p><a href="#">Mirrors</a></p>
+							<p><a href="#">Wall Décor</a></p>
+							<p><a href="#">Wall Shelves</a></p>
+							<p><a href="#">Fountains</a></p>
+							<p><a href="#">Showpieces & Vases</a></p>
+							<br>
+							<h3>Cushions & Cushion Covers</h3>
+							<br>
+							<h3>Curtains</h3>
+						</div>
+						<div class="mega-column-4">
+							<h3>Kitchen & Table</h3>
+							<p><a href="#">Tableware & Serveware</a></p>
+							<p><a href="#">Bar & Drinkware2</a></p>
+							<p><a href="#">Cookware & Kitchen Tools</a></p>
+							<p><a href="#">Kitchen Storage</a></p>
+							<p><a href="#">Table Covers & Furnishings</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Storage</h3>
+							<p><a href="#">Organisers</a></p>
+							<p><a href="#">Hooks & Holders</a></p>
+						</div>
+						<div class="mega-column-4">
+							<h3>Brands</h3>
+							<p><a href="#">Bombay Dyeing</a></p>
+							<p><a href="#">Spaces</a></p>
+							<p><a href="#">D'Decor</a></p>
+							<p><a href="#">Portico New York</a></p>
+							<p><a href="#">Pure Home & Living</a></p>
+							<p><a href="#">Swayam</a></p>
+							<p><a href="#">Raymond Home</a></p>
+							<p><a href="#">Maspar</a></p>
+							<p><a href="#">Corelle</a></p>
+							<p><a href="#">Trident</a></p>
+							<p><a href="#">Cortina</a></p>
+							<p><a href="#">Story@Home</a></p>
+							<p><a href="#">Random</a></p>
+							<p><a href="#">Home Sparkle</a></p>
+							<p><a href="#">ROMEE</a></p>
+							<p><a href="#">SEJ by Nisha Gupta</a></p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li><a href="discover.html">DISCOVER</a>
+					<div class="mega-menu-5">
+						<div class="mega-column-5">
+							<h3>Brands For Him</h3>
+							<p><a href="#">H&M</a></p>
+							<p><a href="#">Roadster</a></p>
+							<p><a href="#">United Colors of Benetton</a></p>
+							<p><a href="#">Nike</a></p>
+							<p><a href="#">Adidas</a></p>
+							<p><a href="#">GAP</a></p>
+							<p><a href="#">Levis</a></p>
+							<p><a href="#">Tommy Hilfiger</a></p>
+							<p><a href="#">Marks & Spencer</a></p>
+							<p><a href="#">Louis Philippe</a></p>
+							<p><a href="#">Wildcraft</a></p>
+							<p><a href="#">Puma</a></p>
+							<p><a href="#">Blackberry</a></p>
+							<p><a href="#">INVICTUS</a></p>
+							<p><a href="#">WROGN</a></p>
+							<p><a href="#">HRX by Hrithik Roshan</a></p>
+							<p><a href="#">House Of Pataudi</a></p>
+						</div>
+						<div class="mega-column-5">
+							<h3>Brands For Her</h3>
+							<p><a href="#">H&M</a></p>
+							<p><a href="#">W</a></p>
+							<p><a href="#">Forever21</a></p>
+							<p><a href="#">Marks & Spencer</a></p>
+							<p><a href="#">Dorothy Perkins</a></p>
+							<p><a href="#">Mango</a></p>
+							<p><a href="#">Hidesign</a></p>
+							<p><a href="#">Catwalk</a></p>
+							<p><a href="#">MAC</a></p>
+							<p><a href="#">Pretty Secrets</a></p>
+							<p><a href="#">Accessorize</a></p>
+							<p><a href="#">Only</a></p>
+							<p><a href="#">Arrow</a></p>
+							<p><a href="#">Anouk</a></p>
+							<p><a href="#">all about you</a></p>
+							<p><a href="#">House Of Pataudi</a></p>
+						</div>
+						<div class="mega-column-5">
+							<h3>Trends For Him</h3>
+							<p><a href="#">Denim Destinations</a></p>
+							<p><a href="#">Athleisure</a></p>
+							<p><a href="#">Military Inspiration</a></p>
+							<p><a href="#">Monochrome</a></p>
+							<p><a href="#">Street</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Trends For Her</h3>
+							<p><a href="#">Retro</a></p>
+							<p><a href="#">Indi</a></p>
+							<p><a href="#">Soft Romantic</a></p>
+							<p><a href="#">Summer Pastels</a></p>
+							<p><a href="#">Denim Destinations</a></p>
+						</div>
+						<div class="mega-column-5">
+							<h3>Premium For Him</h3>
+							<p><a href="#">American Eagle</a></p>
+							<p><a href="#">Superdry</a></p>
+							<p><a href="#">Lacoste</a></p>
+							<p><a href="#">Polo Ralph Lauren</a></p>
+							<p><a href="#">Calvin Klein</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Premium For Her</h3>
+							<p><a href="#">Forever New</a></p>
+							<p><a href="#">Aldo</a></p>
+							<p><a href="#">Guess</a></p>
+							<p><a href="#">Bobbi Brown</a></p>
+							<p><a href="#">Swarovski</a></p>
+						</div>
+						<div class="mega-column-5">
+							<h3>Brandoz Benefits</h3>
+							<p><a href="#">Brandoz Insider</a></p>
+							<p><a href="#">Try & Buy</a></p>
+							<p><a href="#">Easy Returns & Exchanges</a></p>
+							<p><a href="#">Customer Care</a></p>
+							<p><a href="#">Quick Guide</a></p>
+							<p><a href="#">Gift Card</a></p>
+							<br>
+							<hr>
+							<br>
+							<h3>Contest</h3>
+							<p><a href="#">Brandoz Fashion Superstar</a></p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li><a href="#">CONTACT US</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="#">PROFILE</a>
+					<div class="mega-menu-6">
+						<div class="mega-column-6">
+							<h3>Welcome</h3>
+							<p>To access account and manage orders</p>
+							<br>
+							<button>SIGN UP</button>
+							<button>LOG IN</button>
+							<br>
+							<br>
+							<hr>
+							<br>
+							<p><a href="#">Orders</a></p>
+							<p><a href="#">Wishlist</a></p>
+							<p><a href="#">Gift Cards</a></p>
+							<p><a href="#">Customer Care</a></p>
+							<p><a href="#">Contact Us</a></p>
+							<p><a href="#">Brandoz Insider</a></p>
+							<br>
+							<hr>
+							<br>
+							<p><a href="#">Brandoz Credit</a></p>
+							<p><a href="#">PhonePe Wallet</a></p>
+							<p><a href="#">Coupons</a></p>
+							<p><a href="#">Saved Cards</a></p>
+							<p><a href="#">Saved Addresses</a></p>
+						</div>
+						<div class="mega-column-6">
+							<h3>My Account</h3>
+							<p><a href="#">My Profile</a></p>
+							<p><a href="#">Supercoin Zone</a></p>
+							<p><a href="#">Brandoz Plus Zone</a></p>
+							<p><a href="#">My Chats</a></p>
+							<p><a href="#">Notification</a></p>
+						</div>
+						<div class="mega-column-6">
+							<h3>Your Lists</h3>
+							<p><a href="#">Create a List</a></p>
+							<p><a href="#">Find a Gift</a></p>
+							<p><a href="#">Save Items from the Web</a></p>
+							<p><a href="#">Wedding Registry</a></p>
+							<p><a href="#">Baby Registry</a></p>
+							<p><a href="#">Friends & Family Gifting</a></p>
+							<p><a href="#">BrandozSmile Charity Lists</a></p>
+							<p><a href="#">Pantry Lists</a></p>
+							<p><a href="#">Your Hearts</a></p>
+							<p><a href="#">Explore Idea Lists</a></p>
+							<p><a href="#">Explore Showroom</a></p>
+							<p><a href="#">Take the Home Style Quiz</a></p>
+						</div>
+						<div class="mega-column-6">
+							<h3>More</h3>
+							<p><a href="#">Notification Preferences</a></p>
+							<p><a href="#">Sell on Brandoz</a></p>
+							<p><a href="#">24x7 Customer Care</a></p>
+							<p><a href="#">Advertise</a></p>
+						</div>
+						<div class="mega-column-6">
+							<p>Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and available our gift services for special occasions.</p>
+							<br>
+							<hr>
+							<br>
+							<button>LOG OUT</button>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</li>
+			</ul>
+		</div>	
+	</div>
+
+
+
+<!--contact-->
+<div class="abc" align="center">
+<div class="contact-container" align="center" style="margin-bottom: 60px;">
+	<h1 align="center" style="font-family: 'Julius Sans One', sans-serif; margin-top:60px;">CONTACT US</h1>
+	<div class="cr" align="center">
+	<span class="border"></span>
+</div>
+
+<div class="contact-container-2">
+
+<h3>Exchange / Returns</h3>
+<span class="border-2"></span>
+<p>Not sure how to initiate Exchange, then kindly click here. To know how to initiate Return, then click here.
+In case you want to track your return, please click here.</p>
+<h3>Brandoz Customer Support</h3>
+<span class="border-2"></span>
+<p>
+	Our complaint resolution process is designed to ensure fast and efficient resolution of your issue at the first point of contact. While we always aim to provide you with awesome customer service, we understand that there will be times when you may wish to express dissatisfaction with our products, services, staff or policies.<br><br>
+
+If you have a query related to our products, services or policies please go through our FAQ section, where you will find answers to the most common questions asked by our customers.<br><br>
+
+You can also visit our Help/Support section for your order related queries.<br><br>
+
+Hopefully, you will find the answer to your query, but if you don’t, please feel free to contact us and we promise we will do our best to resolve your concern.
+
+
+
+<ul style="color: #fff;">
+	<li>You can drop us an email at care@brandoz.com or call our customer care executive on 0261-408 8100</li>
+	<li>At first contact, you will be addressed by one of our customer service representatives. Our Customer Service Representatives are empowered to resolve complex issues and complaints by making fair and reasonable customer service decisions.</li>
+<li>For every issue we will give you a reference number, decide on a course of action and keep you updated throughout the process.</li>
+</ul>
+</p>
+<h3>Other Enquiries</h3>
+<span class="border-2"></span>
+<p>
+	Corporate Sales -	corporate.sales@brandoz.com<br><br>
+Careers -	Careers at Brandoz<br><br>
+Press Relations -	pr@brandoz.com
+</p>
+<h3>Our address is:</h3>
+<span class="border-2"></span>
+<p>
+	AURO UNIVERSITY,<br>
+Ichapur Road, opp. ONGC,<br>
+ next to Toyota, Bhatpore,<br>
+Limla, Surat,<br> 
+Gujarat 394510.	
+</p>
+
+<h3>HAVE SOME QUESTIONS?</h3>
+<span class="border-2"></span>
+
+
+<div class="contact-box-container">
+  <form action="#	">
+    <input type="text" name="firstname" placeholder="Name" required/>
+
+    <input type="email" id="email" placeholder="E-mail" pattern=".+@gmail.com" size="30" required/>
+
+    <input type="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+       required/>
+
+    <textarea id="subject" name="subject" placeholder="Your questions" style="height:200px;" required/></textarea>
+
+    <input type="submit" value="SEND MESSAGE">
+  </form>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
