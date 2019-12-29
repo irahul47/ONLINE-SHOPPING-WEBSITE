@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');	
+
+
+
+
+body{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Karla', sans-serif;
+}
+
+.contact-container h1{
+text-transform: uppercase;
+margin-bottom:60px;	
+color:#000; 
+font-size:40px;
+}
+
+.border{
+display:inline-block;
+margin:0;
+width:160px;
+height:3px;
+background: #f4b41a;
+margin-bottom:40px;
+}
+
+.border-2{
+display:inline-block;
+margin:0;
+width:160px;
+height:3px;
+background: #f4b41a;
+margin-bottom:30px;
+}
+.contact-container{
+	text-align:justify;
+	max-width: 1000px;
+}
+
+.contact-container p{
+	margin-bottom: 30px;
+	color: #fff;
+}
+.contact-container-2{
+	overflow: hidden;
+background: #143d59;
+padding: 60px;
+}
+
+.contact-container-2 h3{
+	color: #fff;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+  outline-color: #143d59;
+}
+
+input[type=phone] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+  outline-color: #143d59;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+  outline-color: #143d59;
+}
+
+
+input[type=submit] {
+  background-color: #143d59;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.9;
+}
+
+.contact-box-container {
+  border-radius: 5px;
+  background-color: #F0F0F0;
+  padding: 30px;
+}

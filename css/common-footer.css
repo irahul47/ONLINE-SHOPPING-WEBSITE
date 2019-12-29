@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');	
+
+
+body{        
+margin:0;
+padding:0;
+font-family: 'Karla', sans-serif;
+}
+
+    
+.footer{
+margin-top:60px;
+background-color:rgb(250, 251, 252);
+width:100%;
+height:350px;
+bottom: 0;
+}
+
+.footer .footer-content{
+line-height: 1.5;
+height: 350px;
+overflow:auto;
+}
+
+ul{
+list-style-type:none;
+}
+
+
+h3{
+color: #282C3F;
+margin-bottom: 30px;
+}
+
+ul li a{
+text-decoration:none;
+color:#94969F;
+}
+
+.footer-section-explore{
+    
+float: left;
+width: 15%;
+padding: 50px;
+}
+
+.footer-section-help{
+ 
+float: left;
+width: 15%;
+padding: 50px;
+}
+    
+.footer-section-policy{
+
+float: left;
+width: 15%;
+padding: 50px;
+}
+
+.footer-section-social{
+    
+float: left;
+width: 15%;
+padding: 50px;
+}
+
+.footer-bottom{
+background-color:#000;
+color: #94969F;
+line-height:50px;
+width: 100%;
+text-align:center;
+bottom: 0;
+left: 0px;
+}
+	
+    
