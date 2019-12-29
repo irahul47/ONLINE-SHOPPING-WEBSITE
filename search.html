@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/search-bar.css">
+</head>
+<body>
+	<div class="conatiner">
+		<h1>Search for your Soulmate</h1>
+		<div class="search-conainer">
+			<img src="img/search-1.png" alt="search-button" id="search-btn">	
+			<input type="text" id="search" placeholder="">		
+			<p id="tip">Hit enter to search</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		
+		const searchBtn = document.getElementById('search-btn');
+		const search = document.getElementById('search');
+		const tip = document.getElementById('tip');
+
+		var i = 0;
+		var message = 'Search for products, brands and more';
+		var speed = 100;
+
+		searchBtn.addEventListener('click', () => {
+			search.style.width = '80%';
+			search.style.paddingLeft = '60px';
+			search.style.cursor = 'text';
+			search.focus();
+
+			typeWriter();
+		})
+
+		function typeWriter(){
+			if(i < message.length){
+				msg = search.getAttribute('placeholder') + message.charAt(i);
+
+				search.setAttribute('placeholder', msg);
+				i++;
+				setTimeout(typeWriter, speed);
+			}
+		}
+
+		search.addEventListener('keydown', () => {
+			tip.style.visibility = 'visible';
+			tip.style.opacity = 1;
+		})
+
+	</script>
+</body>
+</html>
