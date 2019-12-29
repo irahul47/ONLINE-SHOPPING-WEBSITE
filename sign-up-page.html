@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<script type="text/javascript">
+    
+		$('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+
+	</script>
+	 <link rel="stylesheet" type="text/css" href="css/sign-up.css">
+	
+
+</head>
+<body>
+<div class="login-page">
+  <div class="form">
+  	 <h1>Sign Up</h1>
+
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="First Name" required/>
+<input type="text" placeholder="Last Name" required/>
+<input type="text" placeholder="Email" required/>
+
+      <input type="text" placeholder="Username" required/>
+      <input type="password" placeholder="Password" required/>
+ <input type="password" placeholder="Confirm Password" required/>
+
+
+      <button  type="submit" name="submit" id="submit">Sign Up</button>
+      <p class="message">Already have an account? <a href="login-page.html">Login here</a></p>
+    </form>
+  </div>
+</div>
+<p class="footer">&copy; 2018 Copyright <a id="ftr" href="#">brandoz.com</a></p>
+</body>
+</html>
